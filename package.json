@@ -1,0 +1,44 @@
+{
+    "name": "cordova-plugin-universal-links-domains",
+    "version": "1.0.0",
+    "description": "Work around for branchio domains not allowing www in the domain name",
+    "cordova": {
+        "id": "cordova-plugin-universal-links-domains",
+        "platforms": [
+            "ios"
+        ]
+    },
+    "keywords": [
+        "matrix",
+        "rmg",
+        "ecosystem:cordova",
+        "cordova-ios"
+    ],
+    "engines": [
+        {
+            "name": "cordova",
+            "version": ">=8.0.0"
+        }
+    ],
+    "dependencies": {
+        "glob": "^8.0.3",
+        "mkpath": "^1.0.0",
+        "shelljs": "^0.8.5",
+        "plist": "^3.0.5",
+        "xcode": "^3.0.1",
+        "xml2js": "^0.4.23"
+    },
+    "devDependencies": {
+        "fs": "0.0.1-security",
+        "@commitlint/cli": "^17.0.1",
+        "@commitlint/config-conventional": "^17.0.0",
+        "eslint": "^8.16.0",
+        "eslint-config-airbnb-base": "^15.0.0",
+        "eslint-plugin-import": "^2.26.0",
+        "husky": "^8.0.1",
+        "lint-staged": "^12.4.2",
+        "prettier": "^2.6.2"
+    },
+    "author": "Rencsik Marian",
+    "license": "ISC"
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  id="cordova-plugin-universal-links-domains"
+  version="6.2.0">
+
+  <!-- Description -->
+  <name>cordova-plugin-universal-links-domains</name>
+  <description>Add custom universal links to ios project</description>
+  <license>Apache 2.0</license>
+  <keywords>deep linking, cordova</keywords>
+
+  <!-- Dependencies -->
+  <engines>
+    <engine name="cordova" version=">=8.0.0" />
+  </engines>
+
+  <!-- Hooks -->
+  <hook src="scripts/hooks/beforePrepare.js" type="after_plugin_install" />
+  <hook src="scripts/hooks/beforePrepare.js" type="before_prepare" />
+</plugin>
